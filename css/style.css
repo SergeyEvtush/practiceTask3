@@ -95,3 +95,7 @@ body {
   background: rgba(18, 145, 14, 0.8470588235);
   color: white;
 }
+
+.active {
+  border: solid 1px red;
+}

@@ -16,20 +16,21 @@
 		<main class="main">
 <section class="convertation">
 	<div class="converter">
-		<form  class="form-convert">
+		<form  class="form-convert" id="form-convert">
 			<div class="form-convert__body">
 <div class="form-convert__inputs">
-	<input type="number" class="currency" name="task">
+	<input type="number" class="currency active" name="task" id="task">
 	<select name="coise__currency" id="choise-currency" class="choise-cur">
-		<option value="">выберите конвертируемую валюту</option>
+		<option value="">Рубли</option>
 	</select>
-	<input type="number" class="currency" name="result">
+	<input type="number" class="currency no-active" name="result" id="result" readonly>
 	<select name="coise__currency" id="choise-currency-result" class="choise-cur">
-		<option value="">выберите валюту в котрую конвертируем</option>
+		<option value="">выберите валюту</option>
 	</select>
 </div>
 <div class="form-convert__buttons">
 	<button class="convert-btn" id="c-btn">Конвертировать</button>
+	<button class="convert-btn" id="rev-btn">Reverse</button>
 </div>
 			</div>
 		</form>
